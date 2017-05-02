@@ -1,0 +1,6 @@
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.dll
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.pdb
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Release\Inception.dll
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Release\Inception.pdb
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.dll.config
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Release\Inception.csprojResolveAssemblyReference.cache

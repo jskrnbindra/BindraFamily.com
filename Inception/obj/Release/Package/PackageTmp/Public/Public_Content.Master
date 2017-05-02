@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Public_Content.Master.cs" Inherits="Inception.Public.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"><link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"><!--CONTENT PLACE HOLDER HERE-->
+    </asp:ContentPlaceHolder>
+<link rel="stylesheet" type="text/css" href="noticesStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <asp:ScriptManager runat="server"></asp:ScriptManager>
+   <div class="uphead"></div>
+         <div class="heade">
+        <asp:ContentPlaceHolder ID="headings" runat="server" ><!--CONTENT PLACE HOLDER HERE-->
+          
+        </asp:ContentPlaceHolder>
+   </div>
+       <div class="uppe">
+           <asp:ContentPlaceHolder ID="upperbigs" runat="server"><!--CONTENT PLACE HOLDER HERE-->
+
+           </asp:ContentPlaceHolder>
+       </div>
+        <div class="restbod">
+            <asp:ContentPlaceHolder ID="restbody" runat="server"><!--CONTENT PLACE HOLDER HERE-->
+
+            </asp:ContentPlaceHolder>
+            
+        </div>
+           <div class="signbar">&copy; 2015 bindrafamily.com All rights reserved.</div>
+    </form>
+</body>
+</html>

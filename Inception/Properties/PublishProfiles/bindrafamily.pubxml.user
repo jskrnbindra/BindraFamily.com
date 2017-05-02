@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\Web Projects\ASP.NET\firstly</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Albums.aspx">
+      <publishTime>05/09/2015 17:47:57</publishTime>
+    </File>
+    <File Include="AlubamasStylesheet.css">
+      <publishTime>08/29/2015 17:25:33</publishTime>
+    </File>
+    <File Include="Bancrofti/ShailloRedirect.aspx">
+      <publishTime>05/09/2015 20:38:46</publishTime>
+    </File>
+    <File Include="Bancrofti/ShailloRedirect1.aspx">
+      <publishTime>08/26/2015 06:05:51</publishTime>
+    </File>
+    <File Include="bin/Inception.dll">
+      <publishTime>09/06/2015 01:46:32</publishTime>
+    </File>
+    <File Include="LoginAuth.aspx">
+      <publishTime>05/09/2015 21:10:32</publishTime>
+    </File>
+    <File Include="masterstyle.css">
+      <publishTime>08/29/2015 12:01:43</publishTime>
+    </File>
+    <File Include="Mega.Master">
+      <publishTime>08/23/2015 12:01:42</publishTime>
+    </File>
+    <File Include="PriorityHolders/FokinsRedirect.aspx">
+      <publishTime>05/09/2015 20:14:23</publishTime>
+    </File>
+    <File Include="PriorityHolders/ForkinsRedirect_master.aspx">
+      <publishTime>08/23/2015 12:56:16</publishTime>
+    </File>
+    <File Include="PriorityHolders/Quickdwnlds.aspx">
+      <publishTime>05/09/2015 20:14:22</publishTime>
+    </File>
+    <File Include="PriorityHolders/Quickdwnlds_master.aspx">
+      <publishTime>08/23/2015 12:56:16</publishTime>
+    </File>
+    <File Include="Public/about.aspx">
+      <publishTime>07/27/2015 20:07:38</publishTime>
+    </File>
+    <File Include="Public/about1.aspx">
+      <publishTime>05/09/2015 20:03:56</publishTime>
+    </File>
+    <File Include="Public/contactus.aspx">
+      <publishTime>07/27/2015 20:13:01</publishTime>
+    </File>
+    <File Include="Public/contactus1.aspx">
+      <publishTime>05/09/2015 18:34:40</publishTime>
+    </File>
+    <File Include="Public/Default.aspx">
+      <publishTime>05/09/2015 16:11:47</publishTime>
+    </File>
+    <File Include="Public/disclaimer.aspx">
+      <publishTime>04/08/2015 21:43:48</publishTime>
+    </File>
+    <File Include="Public/disclaimer1.aspx">
+      <publishTime>05/09/2015 19:18:44</publishTime>
+    </File>
+    <File Include="Public/noticesStyle.css">
+      <publishTime>05/09/2015 20:10:29</publishTime>
+    </File>
+    <File Include="Public/Public_Content.Master">
+      <publishTime>05/09/2015 16:11:47</publishTime>
+    </File>
+    <File Include="Public/suggestions.aspx">
+      <publishTime>07/31/2015 23:09:56</publishTime>
+    </File>
+    <File Include="Public/suggestions1.aspx">
+      <publishTime>05/09/2015 18:42:32</publishTime>
+    </File>
+    <File Include="Public/Web.config">
+      <publishTime>08/21/2015 22:11:32</publishTime>
+    </File>
+    <File Include="SuperUsers/OwnersRedirect.aspx">
+      <publishTime>05/09/2015 20:15:41</publishTime>
+    </File>
+    <File Include="SuperUsers/OwnersRedirect_master.aspx">
+      <publishTime>08/26/2015 06:08:44</publishTime>
+    </File>
+    <File Include="UnderTheHood/SkipZone/OblivionRedirect.aspx">
+      <publishTime>05/09/2015 20:16:29</publishTime>
+    </File>
+    <File Include="UnderTheHood/SkipZone/OblivionRedirect_master.aspx">
+      <publishTime>08/26/2015 06:10:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/09/2015 01:29:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

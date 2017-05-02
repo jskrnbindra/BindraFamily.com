@@ -1,0 +1,36 @@
+G:\Project practice\ASP.NET\Inception\Inception\bin\Inception.dll.config
+G:\Project practice\ASP.NET\Inception\Inception\bin\Inception.dll
+G:\Project practice\ASP.NET\Inception\Inception\bin\Inception.pdb
+G:\Project practice\ASP.NET\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+G:\Project practice\ASP.NET\Inception\Inception\obj\Debug\Inception.dll
+G:\Project practice\ASP.NET\Inception\Inception\obj\Debug\Inception.pdb
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.dll.config
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.dll
+G:\Web Projects\ASP.NET\Inception\Inception\bin\Inception.pdb
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Debug\Inception.dll
+G:\Web Projects\ASP.NET\Inception\Inception\obj\Debug\Inception.pdb
+A:\Inception\Inception\bin\Inception.dll.config
+A:\Inception\Inception\bin\Inception.dll
+A:\Inception\Inception\bin\Inception.pdb
+A:\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+A:\Inception\Inception\obj\Debug\Inception.dll
+A:\Inception\Inception\obj\Debug\Inception.pdb
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll.config
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.pdb
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.dll
+E:\Web Projects\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.pdb
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll.config
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.pdb
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.dll
+E:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.pdb
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll.config
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.dll
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\bin\Inception.pdb
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.csprojResolveAssemblyReference.cache
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.dll
+F:\Web Projects\temp prev\Prev\ASP.NET\Inception files\Inception\Inception\obj\Debug\Inception.pdb

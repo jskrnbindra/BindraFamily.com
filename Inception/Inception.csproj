@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F35C9318-0989-4FC7-A633-B89A1F4DD70B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inception</RootNamespace>
+    <AssemblyName>Inception</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bancrofti\ShailloRedirect.aspx" />
+    <Content Include="masterstyle.css" />
+    <Content Include="Albums.aspx" />
+    <Content Include="AlubamasStylesheet.css" />
+    <Content Include="PriorityHolders\FokinsRedirect.aspx" />
+    <Content Include="PriorityHolders\Quickdwnlds.aspx" />
+    <Content Include="Public\noticesStyle.css" />
+    <Content Include="Public\about1.aspx" />
+    <Content Include="Public\contactus1.aspx" />
+    <Content Include="Public\disclaimer1.aspx" />
+    <Content Include="Public\suggestions1.aspx" />
+    <Content Include="SuperUsers\OwnersRedirect.aspx" />
+    <Content Include="UnderTheHood\SkipZone\OblivionRedirect.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Public\Default.aspx" />
+    <Content Include="Public\about.aspx" />
+    <Content Include="Public\contactus.aspx" />
+    <Content Include="Public\suggestions.aspx" />
+    <Content Include="Public\disclaimer.aspx" />
+    <Content Include="Authentication\LoginAuth.aspx" />
+    <Content Include="PriorityHolders\Quickdwnlds_master.aspx" />
+    <Content Include="SuperUsers\OwnersRedirect_master.aspx" />
+    <Content Include="Bancrofti\ShailloRedirect1.aspx" />
+    <Content Include="UnderTheHood\SkipZone\OblivionRedirect_master.aspx" />
+    <Content Include="PriorityHolders\ForkinsRedirect_master.aspx" />
+    <Content Include="JupiterRevolver.aspx" />
+    <Content Include="wow.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bancrofti\ShailloRedirect.aspx.cs">
+      <DependentUpon>ShailloRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bancrofti\ShailloRedirect.aspx.designer.cs">
+      <DependentUpon>ShailloRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mega.Master.cs">
+      <DependentUpon>Mega.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mega.Master.designer.cs">
+      <DependentUpon>Mega.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PriorityHolders\FokinsRedirect.aspx.cs">
+      <DependentUpon>FokinsRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PriorityHolders\FokinsRedirect.aspx.designer.cs">
+      <DependentUpon>FokinsRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PriorityHolders\Quickdwnlds.aspx.cs">
+      <DependentUpon>Quickdwnlds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PriorityHolders\Quickdwnlds.aspx.designer.cs">
+      <DependentUpon>Quickdwnlds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\contactus.aspx.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\contactus.aspx.designer.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Public_Content.Master.cs">
+      <DependentUpon>Public_Content.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Public_Content.Master.designer.cs">
+      <DependentUpon>Public_Content.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Public\suggestions.aspx.cs">
+      <DependentUpon>suggestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\suggestions.aspx.designer.cs">
+      <DependentUpon>suggestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\disclaimer.aspx.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\disclaimer.aspx.designer.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\LoginAuth.aspx.cs">
+      <DependentUpon>LoginAuth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\LoginAuth.aspx.designer.cs">
+      <DependentUpon>LoginAuth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Albums.aspx.cs">
+      <DependentUpon>Albums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Albums.aspx.designer.cs">
+      <DependentUpon>Albums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PriorityHolders\Quickdwnlds_master.aspx.cs">
+      <DependentUpon>Quickdwnlds_master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PriorityHolders\Quickdwnlds_master.aspx.designer.cs">
+      <DependentUpon>Quickdwnlds_master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\about1.aspx.cs">
+      <DependentUpon>about1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\about1.aspx.designer.cs">
+      <DependentUpon>about1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\contactus1.aspx.cs">
+      <DependentUpon>contactus1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\contactus1.aspx.designer.cs">
+      <DependentUpon>contactus1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\disclaimer1.aspx.cs">
+      <DependentUpon>disclaimer1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\disclaimer1.aspx.designer.cs">
+      <DependentUpon>disclaimer1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\suggestions1.aspx.cs">
+      <DependentUpon>suggestions1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\suggestions1.aspx.designer.cs">
+      <DependentUpon>suggestions1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperUsers\OwnersRedirect_master.aspx.cs">
+      <DependentUpon>OwnersRedirect_master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperUsers\OwnersRedirect_master.aspx.designer.cs">
+      <DependentUpon>OwnersRedirect_master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bancrofti\ShailloRedirect1.aspx.cs">
+      <DependentUpon>ShailloRedirect1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bancrofti\ShailloRedirect1.aspx.designer.cs">
+      <DependentUpon>ShailloRedirect1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperUsers\OwnersRedirect.aspx.cs">
+      <DependentUpon>OwnersRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperUsers\OwnersRedirect.aspx.designer.cs">
+      <DependentUpon>OwnersRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderTheHood\SkipZone\OblivionRedirect_master.aspx.cs">
+      <DependentUpon>OblivionRedirect_master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderTheHood\SkipZone\OblivionRedirect_master.aspx.designer.cs">
+      <DependentUpon>OblivionRedirect_master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PriorityHolders\ForkinsRedirect_master.aspx.cs">
+      <DependentUpon>ForkinsRedirect_master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PriorityHolders\ForkinsRedirect_master.aspx.designer.cs">
+      <DependentUpon>ForkinsRedirect_master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderTheHood\SkipZone\OblivionRedirect.aspx.cs">
+      <DependentUpon>OblivionRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderTheHood\SkipZone\OblivionRedirect.aspx.designer.cs">
+      <DependentUpon>OblivionRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JupiterRevolver.aspx.cs">
+      <DependentUpon>JupiterRevolver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JupiterRevolver.aspx.designer.cs">
+      <DependentUpon>JupiterRevolver.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Public\Web.config" />
+    <Content Include="Mega.Master" />
+    <Content Include="Public\Public_Content.Master" />
+    <None Include="Properties\PublishProfiles\bindrafamily.pubxml" />
+    <None Include="Properties\PublishProfiles\dd.pubxml" />
+    <None Include="Properties\PublishProfiles\ddd.pubxml" />
+    <None Include="Properties\PublishProfiles\inceptionrun.pubxml" />
+    <None Include="Properties\PublishProfiles\last.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Carrier\" />
+    <Folder Include="WOW-master\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5604</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5604/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
